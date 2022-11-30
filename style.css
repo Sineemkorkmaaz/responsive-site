@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 7px;
+}
+
+body {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: darksalmon;
+    color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(245, 207, 157);
+}
+
+p {
+    padding: 1.6rem 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+header {
+    height: 46rem;
+}
+
+header .bg-images {
+    position: absolute;
+    background-image: url(images/04.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -2;
+}
+
+header h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+
+}
+
+.btn {
+    display: inline-block;
+    background-color: darksalmon;
+    color: antiquewhite;
+    border: 1px solid darksalmon;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: darksalmon;
+}
+
+#section-a {
+    background-color: aliceblue;
+    color: darksalmon;
+    padding: 3rem;
+}
+
+#section-b {
+    padding: 2rem;
+}
+
+#section-b ul {
+    list-style: none;
+
+}
+
+#section-b li {
+    background: aliceblue;
+    color: darksalmon;
+    margin-bottom: 1.5rem;
+
+}
+
+.col-content {
+    padding: 1.5rem;
+}
+
+#section-c {
+    background-color: aliceblue;
+    color: darksalmon;
+    padding: 5rem;
+
+}
+
+#section-d .box {
+    padding: 4rem;
+}
+
+#section-d .box:first-child {
+    background-color: rgb(235, 123, 85);
+}
+
+footer {
+    padding: 4rem;
+    background-color: rgb(21, 20, 20);
+
+}
+
+footer a {
+    color: lightsalmon;
+}
+
+@media screen and (min-width:800px) {
+    html {
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 11px;
+    }
+
+    #section-b li {
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+
+    .box {
+        width: 50%;
+        float: left;
+
+    }
+}
